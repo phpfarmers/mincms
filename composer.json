@@ -1,0 +1,20 @@
+{
+	"name": "sunkang2008/minframework-app",
+	"description": "Min Framework",
+	"keywords": ["framework", "mincms"],
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"sunkang2008/minframework": "dev-master",
+		"nesbot/carbon": "~1.14",
+		"mawelous/yamop": "dev-master"
+	 }, 
+	 "autoload": { 
+		"psr-4": {
+			"widgets\\": "widgets/",
+			"classes\\": "classes/",
+			"module\\": "modules/" 
+			
+		}
+	 } 
+}

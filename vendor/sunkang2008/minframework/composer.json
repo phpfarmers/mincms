@@ -1,0 +1,23 @@
+{
+	"name": "sunkang2008/minframework",
+	"description": "Min Framework",
+	"keywords": ["framework", "mincms"],
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"php": ">=5.5.0"
+	}, 
+	"autoload": { 
+		"classmap": [
+			"src/classes" 
+		],
+		"files": ["src/functions.php"],
+		"psr-4": { 
+			"Widget\\": "widgets/",
+			"Helper\\": "helpers/",
+			"Endroid\\":"resource/QrCode/src/Endroid/",
+			"phpseclib\\":"resource/phpseclib/phpseclib/",
+			"cebe\\markdown\\":"resource/markdown/"
+		}
+	} 
+}
